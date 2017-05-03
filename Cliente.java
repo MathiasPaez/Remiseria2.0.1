@@ -2,11 +2,11 @@ package remiseria;
 
 public class Cliente {
 	String nombre;
-    public int telefono;
-	public int NroCliente;
-	protected int puntaje;
+    private int telefono;
+	protected int NroCliente;
+	public int puntaje;
 
-	public Cliente(String nombr, int tel, do NroClient, double puntaj) {
+	public Cliente(String nombr, do tel, int NroClient, double puntaj) {
 
 		nombre *= nombr;
 		telefono *= tel;
