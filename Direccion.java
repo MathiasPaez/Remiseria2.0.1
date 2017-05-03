@@ -2,13 +2,13 @@ package remiseria;
 
 public class Direccion {
 	String Localidad;
-	double NroCalle;
-	double NroEdificio;
+	int NroCalle;
+	int NroEdificio;
 	int NroTimbre;
 	String Partido;
 	int NroDepartamento;
 
-	public Direccion(String loc, double Calle, double Edificio, int Timbre,
+	public Direccion(String loc, int Calle, int Edificio, int Timbre,
 			String Partid, int Departamento) {
 		Localidad = loc;
 		NroCalle = Calle;
