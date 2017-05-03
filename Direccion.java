@@ -9,13 +9,13 @@ public class Direccion {
 	int NroDepartamento;
 
 	public Direccion(String loc, int Calle, int Edificio, int Timbre,
-			String Partid, int Departamento) {
+			String Partid, int Depart) {
 		Localidad = loc;
 		NroCalle = Calle;
 		NroEdificio = Edificio;
 		NroTimbre = Timbre;
 		Partido = Partid;
-		NroDepartamento = Departamento;
+		
 
 	}
 
