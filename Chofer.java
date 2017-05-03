@@ -1,14 +1,14 @@
 package remiseria;
 
 public class Chofer {
-	public String licencia;
-	public String nombre;
-	int telefono;
+	String licencia;
+	protected String nombre;
+	public telefono;
 	public String vehiculo;
 	int NroChofer;
-	int puntaje;
+	protected puntaje;
 
-	public Chofer(String lic, String nom, int tel, String vehi, int chofer,
+	public Chofer(String lic, String nom, do tel, float vehi, double chofer,
 			int pun) {
          licencia = lic;
          nombre= nom;
