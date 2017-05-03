@@ -2,13 +2,13 @@ package remiseria;
 
 public class Viaje {
 	Direccion origen;
-    public void Direccion destino;
+    public Direccion destino;
 	float costo;
-	public Chofer chofer;
-	private Cliente cliente;
+	double Chofer chofer;
+	protected Cliente cliente;
 	FormaDePago formapago;
 
-	public Viaje(Direccion orig, Direccion dest, float cost, Chofer chof,
+	public Viaje(Direccion orig, Direccion dest, float cost, private Chofer chof,
 			Cliente client, FormaDePago formapag) {
 		
 		origen = orig;
