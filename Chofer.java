@@ -2,9 +2,9 @@ package remiseria;
 
 public class Chofer {
 	String licencia;
-	String nombre;
-	int telefono;
-	String vehiculo;
+	protected String nombre;
+	protected int telefono;
+	private String vehiculo;
 	int NroChofer;
 	int puntaje;
 
